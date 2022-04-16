@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+#style de estearchivo no se subirá
+style.css
+
+#style map tambien por que tiene muchas cosas
+style.css.map
