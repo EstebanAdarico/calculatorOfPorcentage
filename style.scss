@@ -1,0 +1,11 @@
+.container-form{
+  display: grid;
+  height: 100vh;
+  align-content: center;
+  justify-content: center
+}
+.text-result{
+  margin:15px 0 15px 0;
+  border-top: 1px solid #2256d5
+}
+@import "./node_modules/bootstrap/scss/bootstrap.scss";

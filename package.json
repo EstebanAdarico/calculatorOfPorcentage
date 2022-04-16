@@ -1,0 +1,23 @@
+{
+  "name": "calculatorOfPorcentage",
+  "version": "1.0.0",
+  "description": "pequeño calculador de porcentaje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanAdarico/calculatorOfPorcentage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EstebanAdarico/calculatorOfPorcentage/issues"
+  },
+  "homepage": "https://github.com/EstebanAdarico/calculatorOfPorcentage#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

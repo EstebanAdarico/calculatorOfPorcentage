@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   
+   <!-- form boostrap -->
+   <form class="container-form">
+      <h1>Calculando porcentajes</h1>
+      <!-- ingresando el precio  -->
+      <div class="mb-3">
+         <label for="text" class="form-label" >Enter the price of product </label>
+         <input type="number" class="form-control"  aria-describedby="emailHelp" id ="precio">
+         <div id="emailHelp" class="form-text">Enter only integers please</div>
+      </div>
+      <!-- ingresar el descuento -->
+      <div class="mb-3">
+         <label for="text" class="form-label">Enter the discount</label>
+         <input type="number" class="form-control"  id="descount" >
+      </div>
+
+      <div class="text-result" id="resultado" >
+         Cantida a pagar 
+      </div>
+      <button type="button" class="btn btn-primary" onclick="calculateDescount()">Calculate discount</button>
+   </form>
+   <script src="./index.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
