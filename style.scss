@@ -1,11 +1,17 @@
+
 .container-form{
   display: grid;
   height: 100vh;
   align-content: center;
   justify-content: center
 }
+
 .text-result{
   margin:15px 0 15px 0;
   border-top: 1px solid #2256d5
+  
 }
+
+//importando a los node modules donde estan los archivos de sass
+//tener en cuenta que puedes escoger solo algunas funcionalidades para bootstrap 5 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
